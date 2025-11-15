@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <H1 STYLE="color: brown">welcome</H1>
+     <H2 style="color: red">WELCOME/H2>
+     <H3>WELCOME</H3>   
+</body>
+<p style="color:green">Django is a high-level Python web framework that allows developers to build web applications quickly and efficiently.
+
+Here’s a simple breakdown 👇</p>
+
+🧩 What Django Is
+
+A web framework: It gives you tools and libraries to build websites or web apps without coding everything from scratch.
+
+Written in Python: So if you know Python, Django will feel natural.
+
+Full-stack: It handles both backend (server logic, database) and frontend (HTML templates) parts.
+
+<p style="color: blue;">⚙️ Key Features
+
+<p><DEL>🏗️ MVC pattern (Model–View–Controller) — implemented as MVT (Model–View–Template) in Django.
+
+🔐 Built-in authentication (login, logout, permissions, etc.).
+
+🗃️ ORM (Object-Relational Mapper) — interact with databases using Python instead of SQL.</p></del>
+
+⚡ Automatic admin panel — a web-based admin interface generated from your models.
+
+🧰 Built-in tools — for forms, sessions, caching, security, and more.
+
+🌐 Scalable and secure — used by big companies like Instagram, Spotify, and Pinterest.
+</html>
