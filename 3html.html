@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    /* Change indicator dots */
+    .carousel-indicators [data-bs-target] {
+      background-color: red;
+      /* Normal dot */
+    }
+
+    .carousel-indicators .active {
+      background-color: yellow;
+      /* Active dot */
+    }
+
+    /* Change arrow colors */
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: blue;
+      /* Color of arrow icons */
+      border-radius: 50%;
+      /* Optional: make them circular */
+      width: 45px;
+      height: 45px;
+    }
+
+    /* Optional: Change arrow hover effect */
+    .carousel-control-prev-icon:hover,
+    .carousel-control-next-icon:hover {
+      background-color: green;
+      /* Hover color */
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1000">
+
+    <!-- Indicators -->
+    <div class="carousel-indicators" >
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- slides -->
+    <div class="carousel-inner" data-bs-interval="1000">
+      <div class="carousel-item active">
+        <img src="i1.jfif" class="d-block w-100" alt="">
+      </div>
+
+      <div class="carousel-item">
+        <img src="i2.jfif" class="d-block w-100" alt="">
+      </div>
+
+      <div class="carousel-item">
+        <img src="i3.png" class="d-block w-100" alt="">
+      </div>
+    </div>
+
+    <!-- arrows -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
